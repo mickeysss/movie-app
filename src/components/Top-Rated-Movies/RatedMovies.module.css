@@ -1,0 +1,25 @@
+.ratedMovies {
+    height: 100vh;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+
+
+.movies {
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .2s linear;
+}
+
